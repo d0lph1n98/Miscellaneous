@@ -2,7 +2,7 @@ class VirusTotal
     def initialize()
         require 'json'
         require 'rest-client'
-        @key = '1e880dba3929c9961b285a58c92964539a45f4c0c964b864706e730c82bd5460'
+        @key = ''
     end
 
     def IpScan(ip_src)
